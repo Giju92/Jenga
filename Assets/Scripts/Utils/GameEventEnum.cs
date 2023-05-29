@@ -1,0 +1,8 @@
+public enum GameEventEnum
+{
+    START,
+    NETWORK_RESPONSE_READY,
+    EXAM_SELECTED,
+    STACK_SELECTED,
+    TEST_STACK
+}

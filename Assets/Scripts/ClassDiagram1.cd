@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseObserver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAQAAECAAAACAAAAAAABIAAAAhAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\BaseClass\BaseObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BaseSingleton&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAFAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BaseClass\BaseSingleton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BaseSubject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAEA=</HashCode>
+      <FileName>Assets\Scripts\BaseClass\BaseSubject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Block" Collapsed="true">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkABAAAABAAEkAAACAAgAAAQAgAQACggggAABAA=</HashCode>
+      <FileName>Assets\Scripts\Elements\Block.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Stack" Collapsed="true">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Elements\Stack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationController" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ApplicationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockPoolManager" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAASAAAABAAAAAAAAEAAAAAAAAAAAAEACgAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\BlockPoolManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CameraManager" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\CameraManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="11.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAABAIAAAAAAAAEACAAAAEIAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkManager" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\NetworkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager" Collapsed="true">
+    <Position X="11.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Response" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Network\NetworkExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkExam" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAgAIACAACAAAAAAEAAARAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Network\NetworkExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameConstant" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAACAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utils\GameConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IObjectPool&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Interfaces\IObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IObjectPoolItem" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Interfaces\IObjectPoolItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IObserver" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Interfaces\IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISingleton&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Interfaces\ISingleton.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISubject" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Interfaces\ISubject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GameEventEnum" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAACAAQAAAAAAAAAAAABAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utils\GameEventEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GradeEnum" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAABA=</HashCode>
+      <FileName>Assets\Scripts\Utils\GradeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
